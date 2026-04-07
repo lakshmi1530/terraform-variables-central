@@ -1,3 +1,3 @@
-output "availability_zones" {
-  value = module.availability_zones.availability_zones
+output "azs_info" {
+  value = module.vpc.azs_info
 }
